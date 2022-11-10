@@ -1,0 +1,222 @@
+/*RESET*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: open sans;
+}
+
+/*UTILITIES*/
+.container-l {
+    width: 1130px;
+    margin: 0 auto;
+}
+
+.container-s {
+    width: 940px;
+    margin: 0 auto;
+}
+
+h3 {
+    font-size: 22px;
+    padding-bottom: 10px;
+    /* font-weight: 700; */
+}
+
+h2 {
+
+    font-weight: 500;
+    font-size: 40px;
+    margin-bottom: 45px;
+
+}
+
+h6 {
+    font-size: 14px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+/*BUTTONS*/
+.blue-button {
+    padding: 6px 10px;
+    text-decoration: none;
+    border: 0;
+    background-color: rgb(0, 97, 255);
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+
+}
+
+.blue-button-long {
+    padding: 6px 8px;
+    width: 250px;
+    text-decoration: none;
+    border: 0;
+    background-color: rgb(0, 97, 255);
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    position: relative;
+    left: calc(100% - 250px);
+    bottom: 90px;
+
+}
+
+.white-button {
+    padding: 6px 10px;
+    text-decoration: none;
+    border: 1px solid black;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    cursor: pointer;
+    display: block;
+    margin-top: 25px;
+
+}
+
+
+button:hover {
+    background-color: rgba(187, 177, 177, 0.479);
+    color: black;
+
+}
+
+body {
+    margin-top: 70px;
+}
+
+/*HEADER*/
+header {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: white;
+
+}
+
+header a {
+    display: flex;
+    text-decoration: none;
+    color: black;
+    height: 100%;
+    align-items: center;
+}
+
+header a:hover {
+    border-bottom: 2px solid gray;
+}
+
+.left-h img {
+    display: flex;
+    justify-content: space-between;
+    height: 20px;
+}
+
+.left-h {
+    display: flex;
+    height: 100%;
+    width: 470px;
+    text-align: start;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-h {
+    display: flex;
+    height: 100%;
+    width: 470px;
+    text-align: end;
+    justify-content: space-between;
+    /* align-items: center; */
+
+}
+
+
+.h-navbar {
+    margin: 0 auto;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    /* align-content: center; */
+    padding: 0 10px;
+    box-shadow: 0px 1px #707070ab;
+    /* border: 2px dashed black; */
+}
+
+/*MAIN*/
+
+/*jumbotrone*/
+
+.jumbotrone {
+    height: 680px;
+    background-color: rgb(180, 208, 231);
+
+}
+
+.j-items h1 {
+    font-size: 68px;
+    padding-top: 65px;
+    padding-bottom: 50px;
+}
+
+.j-items p {
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+.j-items .first-p {
+    padding-top: 0;
+}
+
+.j-items img {
+    /* position: relative;
+    left: 200px;
+    bottom: 200px; */
+    height: 450px;
+
+    float: right;
+}
+
+.j-items .fa-arrow-down {
+    position: relative;
+    top: 50px;
+    bottom: 0;
+    animation: arrow-bouncing 1s infinite;
+}
+
+@keyframes arrow-bouncing {
+    0% {
+        top: 50px
+    }
+
+    25% {
+        top: 55px;
+    }
+
+    30% {
+        top: 60px;
+
+    }
+
+    50% {
+        top: 73px;
+    }
+
+    60% {
+        top: 60px;
+    }
+
+    75% {
+        top: 55px;
+    }
+
+    100% {
+        top: 50px;
+    }
+
+}
