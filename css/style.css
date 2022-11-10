@@ -220,3 +220,190 @@ header a:hover {
     }
 
 }
+
+/*MAIN SECTION*/
+
+.main-s {
+    min-height: 1800px;
+
+}
+
+.main-s-items {
+    height: 320px;
+    padding-top: 150px;
+}
+
+.little-circle-blue {
+    position: relative;
+    top: 4px;
+    display: inline-block;
+    height: 17px;
+    width: 17px;
+    border: 5px solid rgb(0, 97, 255);
+    border-radius: 50%;
+    background-color: white;
+    border: 4px solid rgb(214, 206, 206);
+    cursor: pointer;
+
+
+}
+
+.main-s-items .right {
+    margin-left: 40px;
+
+}
+
+.little-circle-blue:hover {
+    border: 5px solid rgb(0, 97, 255);
+}
+
+
+
+.main-s p {
+    display: inline-block;
+    font-size: 14px;
+}
+
+/*PRICES*/
+.types-row {
+    display: flex;
+    gap: 50px;
+
+}
+
+.version-header {
+    display: flex;
+    gap: 50px;
+}
+
+.types-col {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% / 3);
+    height: 865px;
+    border: 1px solid rgb(208, 208, 211);
+    padding: 30px 20px;
+
+}
+
+.version-header .version {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid rgb(208, 208, 211);
+    border-bottom: 0px;
+    width: calc(100% / 3);
+
+}
+
+.types-col .type-price {
+    font-size: 14px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.types-col p {
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+.types-col address {
+    font-size: 15px;
+    padding-bottom: 40px;
+}
+
+.types-col .blue-button {
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.oppure {
+    font-size: 14px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgb(208, 208, 211);
+}
+
+.types-col .fa-check {
+    color: rgb(0, 97, 255);
+}
+
+.long-version {
+    display: block;
+    margin-top: 40px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid rgb(208, 208, 211);
+    border-bottom: 0px;
+    width: 100%;
+
+}
+
+.long-col {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 200px;
+    border: 1px solid rgb(208, 208, 211);
+    padding: 30px 20px;
+
+}
+
+/*PARTNERS*/
+
+.partners {
+    height: 430px;
+    margin-top: 130px;
+    border: 2px solid rgb(255, 255, 255);
+    padding-right: 40px;
+    margin-bottom: 160px;
+}
+
+.partners img {
+    width: 550px;
+    float: left;
+    margin-right: 50px;
+
+}
+
+.partners h3 {
+    margin-top: 50px;
+
+}
+
+.partners p {
+    display: inline;
+}
+
+/*DROPBOX BUSINESS*/
+.db-business {
+    margin-bottom: 130px;
+}
+
+.db-business-final {
+    padding-top: 150px;
+    padding-right: 230px;
+}
+
+.db-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.db-col {
+    margin: 0 auto;
+    width: calc(100% / 3.4);
+    margin-bottom: 30px;
+}
+
+.db-col img {
+    width: 300px;
+    height: 250px;
+}
+
+/*CUSYOMERS*/
+
+.customers {
+    min-height: 500px;
+    background-color: blue;
+}
