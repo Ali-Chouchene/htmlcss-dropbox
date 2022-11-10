@@ -401,9 +401,67 @@ header a:hover {
     height: 250px;
 }
 
-/*CUSYOMERS*/
+/*CUSTOMERS*/
 
 .customers {
     min-height: 500px;
-    background-color: blue;
+    border: 2px dashed black;
+
+}
+
+.customer-row {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.customer-col {
+    width: calc(100% / 3);
+    border: 2px dashed black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.customer-col.description {
+    background-color: blueviolet;
+
+}
+
+.customer-col img {
+    display: block;
+    width: 150px;
+
+
+}
+
+.customer-col .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(224, 14, 14);
+    width: 285px;
+    height: 285px;
+}
+
+.box:hover {
+    border: 20px solid rgba(255, 253, 253, 0.363);
+
+}
+
+/*boxs color*/
+
+.box.designit {
+    background-color: rgb(162, 211, 155);
+}
+
+.box.asu {
+    background-color: rgb(97, 8, 43);
+}
+
+.box.uf {
+    background-color: rgb(0, 147, 206);
+}
+
+.box.topps {
+    background-color: rgb(255, 28, 28);
 }
