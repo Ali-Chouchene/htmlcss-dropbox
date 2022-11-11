@@ -285,6 +285,7 @@ header a:hover {
     border: 1px solid rgb(208, 208, 211);
     padding: 30px 25px;
 
+
 }
 
 .version-header .version {
@@ -306,6 +307,9 @@ header a:hover {
 .types-col p {
     font-size: 14px;
     padding-bottom: 20px;
+    /* text-indent: -0.6rem;
+    padding: 0 20px;
+    line-height: 20px; */
 }
 
 .types-col address {
@@ -556,6 +560,14 @@ header a:hover {
     height: 100px;
 }
 
+.q-col i {
+    cursor: pointer;
+}
+
+.q-col i:hover {
+    scale: 1.5;
+}
+
 .q-col h6 {
     padding: 0;
 }
@@ -595,5 +607,8 @@ footer {
     list-style-type: none;
     cursor: pointer;
 
+}
 
+.footer-info li:hover {
+    color: rgb(0, 97, 255)
 }
