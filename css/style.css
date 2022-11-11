@@ -431,19 +431,28 @@ header a:hover {
     background-color: rgb(245, 245, 245);
     padding: 0 40px;
     padding-bottom: 130px;
-
-
+    /* opacity: 0;
+     transition: opacity 2s; 
+    display: none; */
 }
+
+/* .customer-col>.box.designit:hover~.customer-col.description {
+    opacity: 1;
+    display: block;
+
+} */
 
 .customer-col.description img {
     display: block;
     width: 60%;
     height: 150px;
     filter: invert(0);
+
 }
 
 .customer-col.description p {
     padding-bottom: 25px;
+
 }
 
 .customer-col img {
