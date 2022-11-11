@@ -307,9 +307,10 @@ header a:hover {
 .types-col p {
     font-size: 14px;
     padding-bottom: 20px;
-    /* text-indent: -0.6rem;
-    padding: 0 20px;
-    line-height: 20px; */
+    text-indent: -0.6rem;
+    padding: 0 12px;
+    /* line-height: 50px; */
+    margin-bottom: 15px;
 }
 
 .types-col address {
